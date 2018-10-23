@@ -8,5 +8,6 @@ public class homePage extends CommonApi {
     @Test
     public void homeSearch(){
         System.out.println(driver.getCurrentUrl());
+        System.out.println(driver.getTitle());
     }
 }
